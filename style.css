@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+} 
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color:  #1E0E62;
+    text-decoration: none;
+}
+
+.log-btn , .Sign-btn{
+    padding: 10px 20px;
+    background: #fff;
+    color: #1E0E62;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.Sign-btn {
+    border: 2px solid #EBEAED;
+    border-radius: 20px;
+}
